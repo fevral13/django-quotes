@@ -8,7 +8,8 @@ setup(
     author='Dave Merwin',
     author_email='',
     url='https://github.com/fevral13/django-quotes',
-    packages=['quotes'],
+    packages=['quotes', 'quotes.templatetags'],
+    data_files=['quotes/templates'],
     package_dir={'quotes': 'quotes'},
     classifiers=[
         'Development Status :: 5 - Production/Stable',
