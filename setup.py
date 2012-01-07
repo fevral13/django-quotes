@@ -4,7 +4,7 @@ setup(
     name='django-quotes',
     version='0.1',
     description="Quotes application for Django.",
-    long_description=open('README.markdown').read(),
+    #long_description=open('README.markdown').read(),
     author='Dave Merwin',
     author_email='',
     url='https://github.com/fevral13/django-quotes',
