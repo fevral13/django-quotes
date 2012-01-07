@@ -7,7 +7,7 @@ setup(
     long_description=open('README.markdown').read(),
     author='Dave Merwin',
     author_email='',
-    url="https://github.com/fevral13/django-quotes',
+    url='https://github.com/fevral13/django-quotes',
     packages=['quotes'],
     package_dir={'quotes': 'quotes'},
     classifiers=[
